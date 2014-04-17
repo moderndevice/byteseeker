@@ -169,18 +169,14 @@ void startPlayback()
 }
 
 void blinkNTimes(int n) {
- 
   digitalWrite(13, LOW);
   delay(200);
   for (int i=0; i<n; i++) {
     digitalWrite(13, LOW);
-    delay(150);
+    delay(100);
     digitalWrite(13, HIGH);
-    delay(30);
+    delay(220);
   }
-   digitalWrite(13, LOW);
-  delay(400);
-  digitalWrite(13, HIGH);
 }
 void setup() {
   
